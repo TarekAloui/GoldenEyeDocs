@@ -1,4 +1,4 @@
-Welcome to Lumache's documentation!
+GoldenEye
 ===================================
 
 **Lumache** (/lu'make/) is a Python library for cooks and food lovers
