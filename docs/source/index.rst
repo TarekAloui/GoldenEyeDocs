@@ -14,6 +14,15 @@ Getting Started
 This documentation provides an overview of the features of Goldeneye including its usage and how to customize 
 it to your specific use-cases.
 
+Contents
+########
+.. toctree::
+   :maxdepth: 2
+   Overview <index>
+   Setup
+   Usage
+   Customization
+
 About the project
 #################
 
