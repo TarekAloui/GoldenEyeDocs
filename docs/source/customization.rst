@@ -1,5 +1,6 @@
 Customization
 =============
+.. contents::
 
 Adding custom number systems in Python
 ######################################

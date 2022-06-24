@@ -1,6 +1,8 @@
 Goldeneye
 =========
 
+.. contents::
+
 Overview
 ########
 **Goldeneye** is a functional simulator of different number systems with fault injection capabilities. 
@@ -16,12 +18,13 @@ it to your specific use-cases.
 
 Contents
 ########
+
 .. toctree::
-   :maxdepth: 2
+
    Overview <index>
-   Setup
-   Usage
-   Customization
+   Setup <setup>
+   Usage <usage>
+   Customization <customization>
 
 About the project
 #################

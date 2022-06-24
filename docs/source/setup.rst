@@ -1,5 +1,6 @@
 Setup
 =====
+.. contents::
 
 .. _installation:
 
