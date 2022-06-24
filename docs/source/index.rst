@@ -1,22 +1,27 @@
-GoldenEye
-===================================
+Goldeneye
+=========
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+Overview
+########
+**Goldeneye** is a functional simulator of different number systems with fault injection capabilities. 
+It is built on top of the Pytorch deep learning framework and the PytorchFi fault injection library. 
+Goldeneye can be used either for conducting fault injection campaigns or the general study of the 
+reliability and accuracy of various number systems. This documentation gives an overview of the different 
+use-cases of Goldeneye and how to customize it to your own number systems and models.
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+Getting Started
+###############
+This documentation provides an overview of the features of Goldeneye including its usage and how to customize 
+it to your specific use-cases.
 
-.. note::
+About the project
+#################
 
-   This project is under active development.
+Contributors
+************
 
-Contents
---------
+Citation
+########
 
-.. toctree::
-
-   usage
-   api
+License
+#######
