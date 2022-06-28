@@ -48,12 +48,17 @@ Docker
         docker pull goldeneyetool/goldeneye:latest
         docker image tag goldeneyetool/goldeneye goldeneye
 
-3. Within the goldeneye folder, run the shell on the pulled docker image.
+3. Within the goldeneye folder, run the shell on the pulled docker image. Make sure to replace [/path/to/imagenet] with the actual path to your downloaded imagenet dataset.
 
     ::
 
         cd goldeneye
-        docker run -it goldeneye sh
+        docker run -ti 
+            --mount type=bind,source=`pwd`/src/,target=/src 
+            --mount type=bind,source=`pwd`/val/,target=/val 
+            --mount type=bind,source=`pwd`/scripts/,target=/scripts 
+            --mount type=bind,source=[/path/to/imagenet],target=/datasets/imagenet 
+            goldeneye
 
 
 Code Overview
